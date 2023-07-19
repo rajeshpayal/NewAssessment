@@ -1,0 +1,243 @@
+.frame-parent26 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  flex: 1;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid #dadce0;
+  padding: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 16px;
+}
+
+.frame-parent27 {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  z-index: 0;
+}
+
+.frame-parent28 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.frame-child9 {
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 12px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.math-assessment-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+
+.assessments-overview {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  width: auto;
+}
+
+.job-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.job {
+  position: relative;
+  flex-shrink: 0;
+  line-height: 140%;
+  font-weight: 600;
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+}
+
+.frame-child10 {
+  position: relative;
+  width: 1px;
+  height: 16px;
+}
+
+.calendar-today-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 22px;
+  gap: 4px;
+  font-size: 12px;
+  color: #8da4bf;
+}
+
+.calendar-today-icon {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.new-assessment {
+  position: relative;
+  font-weight: 500;
+}
+
+.dot-wrapper {
+  display: flex;
+  flex-direction: row;
+  border-radius: 50px;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.frame-child11 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.frame-parent29 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+  justify-content: space-between;
+  z-index: 2;
+  font-size: 14px;
+}
+
+.frame-parent30 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 14px;
+}
+
+.parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assessment {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  cursor: pointer;
+}
+.duration {
+  position: relative;
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 500;
+  margin-top: -1px;
+}
+.frame-parent31 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.link-parent {
+  border-radius: 50px;
+  background-color: #fff;
+  border: 1px solid #1c4980;
+  box-sizing: border-box;
+  height: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 2px 8px 2px 6px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.link-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.assessments-overview {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  width: auto;
+}
+.frame-wrapper10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  color: #fff;
+}
+.lp-wrapper {
+  border-radius: 32.73px;
+  background-color: #6548ee;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 6px;
+  align-items: flex-end;
+  justify-content: center;
+}
+.frame-child12 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  width: 58px;
+  height: 49px;
+  z-index: 3;
+}
+.lp {
+  position: relative;
+}

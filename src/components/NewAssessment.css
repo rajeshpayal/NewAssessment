@@ -1,0 +1,68 @@
+.frame-parent24 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 12px;
+  background-color: #f6f8fa;
+  border: 1px dashed #dadce0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+.frame-parent25 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  z-index: 0;
+}
+.add-wrapper {
+  border-radius: 72px;
+  background-color: #fff;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.add-icon {
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.new-assessment {
+  position: relative;
+  font-weight: 500;
+}
+.from-here-you {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  z-index: 1;
+}
+.vector-icon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: -19px;
+  left: 470px;
+  width: 149px;
+  height: 149px;
+  z-index: 2;
+}

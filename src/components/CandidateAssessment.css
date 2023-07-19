@@ -1,0 +1,77 @@
+.candidates-parent {
+  flex: 1;
+  display: flex;
+  padding: 16px 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.frame-parent13 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 20px;
+}
+.frame-inner {
+  position: relative;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frame-parent14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.div {
+  position: relative;
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 500;
+  color: #05c165;
+}
+
+.total-candidate {
+  position: relative;
+  font-size: 12px;
+  line-height: 140%;
+  font-weight: 500;
+}
+.frame-child1 {
+  /* position: relative; */
+  width: 1px;
+  height: 40px;
+}
+
+.frame-parent14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+}
+
+.b {
+  line-height: 140%;
+  position: relative;
+}

@@ -1,0 +1,38 @@
+.total-purpose-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 188px;
+  padding: 16px 50px 16px 20px;
+}
+
+.assessment {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.frame-parent12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 20px;
+}
+.frame-inner {
+  position: relative;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
