@@ -12,35 +12,27 @@ const FrameComponent = ({ onClose }) => {
           <div className="name-of-assessment-wrapper">
             <div className="name-of-assessment">Name of assessment</div>
           </div>
-          <div className="type-here-wrapper">
-            <div className="name-of-assessment">Type Here</div>
-          </div>
+          <input placeholder="Type Here" className="input-style" type="text" />
         </div>
         <div className="frame-container">
           <div className="name-of-assessment-wrapper">
             <div className="name-of-assessment">Purpose of the test is</div>
           </div>
-          <div className="select-parent">
-            <div className="name-of-assessment">Select</div>
-            <img
-              className="keyboard-arrow-down-icon"
-              alt=""
-              src="/keyboard-arrow-down.svg"
-            />
-          </div>
+          <select placeholder="Type Here" type="select">
+            <option>First</option>
+            <option>Second</option>
+          </select>
         </div>
         <div className="frame-container">
           <div className="name-of-assessment-wrapper">
             <div className="name-of-assessment">Description</div>
           </div>
-          <div className="select-parent">
-            <div className="name-of-assessment">Select</div>
-            <img
-              className="keyboard-arrow-down-icon"
-              alt=""
-              src="/keyboard-arrow-down1.svg"
-            />
-          </div>
+          <select placeholder="Type Here" type="select">
+            <option>Select</option>
+            <option>First</option>
+            <option>Second</option>
+          </select>
+
         </div>
         <div className="frame-container">
           <div className="name-of-assessment-wrapper">
@@ -66,14 +58,7 @@ const FrameComponent = ({ onClose }) => {
           <div className="name-of-assessment-wrapper">
             <div className="name-of-assessment">Duration of assessment</div>
           </div>
-          <div className="hhmmss-parent">
-            <div className="name-of-assessment">HH:MM:SS</div>
-            <img
-              className="keyboard-arrow-down-icon2"
-              alt=""
-              src="/keyboard-arrow-down2.svg"
-            />
-          </div>
+          <input placeholder="HH:MM:SS" className="input-style" type="text" />
         </div>
       </div>
       <div className="buttons-wrapper">
