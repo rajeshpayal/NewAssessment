@@ -1,4 +1,3 @@
-// import "../pages/FrameComponent1.css"
 import "./CandidateSourceOverView.css"
 const CandidateSourceOverView = () => {
     const candidtaeObj = [{ name: "E-mail", value: 11000, secondValue: 89, verticalLine: true },

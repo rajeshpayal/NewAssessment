@@ -1,7 +1,6 @@
-// import "../pages/FrameComponent1.css"
 import "./NewAssessment.css"
-const NewAssessment = () => {
-    return (<div className="frame-parent24">
+const NewAssessment = ({ onOpen }) => {
+    return (<div className="frame-parent24" onClick={onOpen}>
         <div className="frame-parent25">
             <div className="add-wrapper">
                 <img className="add-icon" alt="" src="/add.svg" />

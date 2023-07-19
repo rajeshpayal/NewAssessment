@@ -1,4 +1,3 @@
-// import "../pages/FrameComponent1.css"
 import "./MathAssessment.css"
 const MathAssessment = () => {
     return (<div className="frame-parent26">
